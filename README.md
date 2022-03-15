@@ -16,7 +16,7 @@ For Galen, you need to have a Java version 1.8 or greater installed.<br>
 
 ### To run Galen test, follow these steps:
 1. Navigate to layout_tests folder using following command. <br> 
-`cd functional_tests/layout_test`<br>
+
 2. To run test suite in galen, execute the following command.<br>
 `galen test <TestSuite_name> --htmlreport <ReportDirectory_name>`<br>
 E.g., `galen test ./suites/ --htmlreport reports`<br>
