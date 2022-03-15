@@ -29,7 +29,7 @@ E.g., `galen test ./suites/testfilename.test.js --htmlreport reports`<br>
 5. To execute and check a gspec file use the following command.<br>
 `galen check <File_name> --url <url> --size <dimension> --htmlreport <ReportDirectory_name>`<br>
 E.g., `galen check ./specs/filename.gspec --url https://<Your uRL>/ --size 1024x768 --htmlreport reports`<br>
-6. To run with headless mode off, in `layout_test/galen.config` file, `galen.browser.headless=true`, replace true with false.<br>
+6. To run with headless mode off, in `./galen.config` file, `galen.browser.headless=true`, replace true with false.<br>
 
 Note:<br>
 - You can change the url in `/suites/constant.properties` file,<br> `url : https://<your url>`, change `url` 
